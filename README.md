@@ -24,11 +24,16 @@ Once you have a basic working module, you will need to manually create an initia
 with `v1.0.0` and pushing it to the repository. Then you can create a new release in GitHub using this tag. The release
 name should be `Release 1.0.0` assuming the initial version is 1.0.0.
 
+After the initial release is made, future releases will be created automatically by the release workflow.
+
 ## Adding to the Terraform Registry
 
 After you have an initial release available, you will need to add your module to the Terraform Registry. Simply follow
 [this link](https://registry.terraform.io/github/create) and log in with your GitHub account. Then just select the new
 repository, agree to the terms, and click "Publish module".
+
+If the repository does not show up in the list it may mean you have named the repository incorrectly or the repository
+may not have any releases.
 
 ## Updating the README
 
